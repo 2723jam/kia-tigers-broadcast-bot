@@ -1,0 +1,12 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.bot_state/*.sqlite3
+.bot_state/*.sqlite3-*
+.bot_state/*.log
+.bot_state/*.pid
+.bot_state/retail_source_catalog/

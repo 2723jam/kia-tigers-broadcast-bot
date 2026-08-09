@@ -1,0 +1,61 @@
+name: KIA Tigers Telegram Commands
+
+on:
+  # /today is handled immediately by the Vercel Telegram webhook.
+  workflow_dispatch:
+
+concurrency:
+  group: kia-command-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Asia/Seoul
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install KIA bot dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Poll Telegram commands
+        run: python src/kia_broadcast_bot.py --mode commands
+
+      - name: Commit command state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -d .bot_state ]; then
+            git add .bot_state/telegram_updates.json 2>/dev/null || true
+          fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Update KIA command bot state"
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push failed; rebasing and retrying ($attempt/3)."
+              git fetch origin main
+              git rebase origin/main
+            done
+            exit 1
+          else
+            echo "No command state changes to commit."
+          fi

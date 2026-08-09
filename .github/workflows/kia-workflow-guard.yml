@@ -1,0 +1,69 @@
+name: KIA Workflow Guard
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/kia-*.yml"
+      - "scripts/ensure_kia_workflows_enabled.py"
+  schedule:
+    - cron: "50 9 * * 0"
+      timezone: "Asia/Seoul"
+  workflow_dispatch:
+
+concurrency:
+  group: kia-workflow-guard
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  enable:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Ensure KIA workflows are enabled
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/ensure_kia_workflows_enabled.py
+
+      - name: Record repository activity heartbeat
+        run: |
+          python - <<'PY'
+          from datetime import datetime, timezone
+          import json
+          from pathlib import Path
+
+          path = Path(".bot_state/kia_workflow_guard.json")
+          path.parent.mkdir(parents=True, exist_ok=True)
+          path.write_text(
+              json.dumps(
+                  {"last_heartbeat_utc": datetime.now(timezone.utc).isoformat()},
+                  indent=2,
+              )
+              + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .bot_state/kia_workflow_guard.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Keep KIA workflows active"
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              echo "Push failed; rebasing and retrying ($attempt/3)."
+              git fetch origin main
+              git rebase origin/main
+            done
+            exit 1
+          fi
