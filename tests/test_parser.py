@@ -605,3 +605,22 @@ def test_scheduled_check_sends_cancellations_on_consecutive_days(
     assert all("폭염취소" in message for message in sent_messages)
     assert (tmp_path / ".bot_state" / "kia_2026-08-01.json").exists()
     assert (tmp_path / ".bot_state" / "kia_2026-08-02.json").exists()
+
+
+def test_scheduled_check_fails_when_initial_telegram_send_fails(
+    tmp_path, monkeypatch
+):
+    monkeypatch.setattr(bot, "STATE_DIR", tmp_path / ".bot_state")
+    monkeypatch.setattr(
+        bot,
+        "get_now_kst",
+        lambda: datetime(2026, 5, 27, 10, 0, tzinfo=KST),
+    )
+    monkeypatch.setattr(bot, "fetch_kbo_daily_schedule", lambda: schedule_html(row()))
+    monkeypatch.setattr(
+        bot, "fetch_kbo_game_list", lambda target_date: [kbo_game_list_row()]
+    )
+    monkeypatch.setattr(bot, "send_telegram_message", lambda text, chat_id=None: False)
+
+    assert bot.run_scheduled_check() == 1
+    assert not (tmp_path / ".bot_state" / "kia_2026-05-27.json").exists()

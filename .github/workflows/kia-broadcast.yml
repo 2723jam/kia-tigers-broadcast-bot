@@ -41,6 +41,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Validate KIA bot secrets
+        run: |
+          python - <<'PY'
+          import os
+
+          required = ("TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID")
+          missing = [name for name in required if not os.environ.get(name, "").strip()]
+          if missing:
+              raise SystemExit(f"Missing required secrets: {', '.join(missing)}")
+          print("Required KIA bot secrets are configured.")
+          PY
+
       - name: Run KIA tests
         continue-on-error: true
         run: pytest -q tests/test_parser.py tests/test_webhook.py

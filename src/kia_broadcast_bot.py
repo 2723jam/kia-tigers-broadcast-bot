@@ -573,7 +573,9 @@ def run_scheduled_check() -> int:
             _record_sent_games(state, initial_games, now, initial=True)
             _save_after_successful_send(today, state)
             logger.info("Initial message sent.")
-        return 0
+            return 0
+        logger.error("Initial message could not be sent.")
+        return 1
 
     if games and state.get("first_sent"):
         changed_games = get_changed_games_before_start(now, games, state)
@@ -583,13 +585,15 @@ def run_scheduled_check() -> int:
                 _record_sent_games(state, changed_games, now, initial=False)
                 _save_after_successful_send(today, state)
                 logger.info("Change message sent for %d game(s).", len(changed_games))
+                return 0
+            logger.error("Change message could not be sent.")
+            return 1
         else:
             logger.info("No changes before game start.")
         return 0
 
     if not games:
-        _maybe_send_no_game_message(today, now, state)
-        return 0
+        return 0 if _maybe_send_no_game_message(today, now, state) else 1
 
     logger.info("Initial message is not due yet.")
     return 0
@@ -1430,23 +1434,27 @@ def _record_sent_games(
 
 def _maybe_send_no_game_message(
     today: date, now: datetime, state: dict[str, Any]
-) -> None:
+) -> bool:
     send_no_game = os.environ.get("SEND_NO_GAME", "").strip().lower() == "true"
     if not send_no_game:
         logger.info("No KIA game today; SEND_NO_GAME is not true.")
-        return
+        return True
     if state.get("no_game_sent"):
         logger.info("No-game message already sent today.")
-        return
+        return True
     if now.astimezone(KST).time() < FIRST_CHECK_TIME:
         logger.info("No-game message is not due yet.")
-        return
+        return True
 
     if send_telegram_message("오늘은 KIA 타이거즈 경기가 없습니다."):
         state["no_game_sent"] = True
         state["last_sent_at_kst"] = now.astimezone(KST).isoformat(timespec="seconds")
         _save_after_successful_send(today, state)
         logger.info("No-game message sent.")
+        return True
+
+    logger.error("No-game message could not be sent.")
+    return False
 
 
 def _save_after_successful_send(today: date, state: dict[str, Any]) -> None:
