@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-12",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260812SSHT0": {
+      "game_key": "official:20260812SSHT0",
+      "last_sent_hash": "17aed2400c0de6f879171952906e2afbd4a65f5f7ae02e293350ec5711727f59",
+      "last_snapshot": {
+        "date": "2026-08-12",
+        "game_label": "단일경기",
+        "game_text": "SAMSUNG : KIA",
+        "location": "광주",
+        "matchup": "KIA(네일) vs 삼성(보스)",
+        "opponent": "삼성",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(네일) vs 삼성(보스)",
+        "status_reason": "-",
+        "time": "19:00",
+        "tv": "KBS N SPORTS (59번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-12T12:17:44+09:00",
+  "no_game_sent": false
+}
