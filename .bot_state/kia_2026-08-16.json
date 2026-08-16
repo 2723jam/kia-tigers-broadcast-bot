@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-16",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260816OBHT0": {
+      "game_key": "official:20260816OBHT0",
+      "last_sent_hash": "e8507d61e426a05e4c07705c932e5762650ff8e24ea257c95bbbcffcc42786ba",
+      "last_snapshot": {
+        "date": "2026-08-16",
+        "game_label": "단일경기",
+        "game_text": "DOOSAN : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs 두산(곽빈)",
+        "opponent": "두산",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs 두산(곽빈)",
+        "status_reason": "-",
+        "time": "19:00",
+        "tv": "SBS SPORTS (58번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-16T11:14:23+09:00",
+  "no_game_sent": false
+}
