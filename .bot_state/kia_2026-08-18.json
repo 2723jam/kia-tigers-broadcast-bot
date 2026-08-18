@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-18",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260818HTHH0": {
+      "game_key": "official:20260818HTHH0",
+      "last_sent_hash": "4ef0c431b9a036fa6fcf33d0550600715fb6bd7d4eaa5d7180a7d1bb0123865c",
+      "last_snapshot": {
+        "date": "2026-08-18",
+        "game_label": "단일경기",
+        "game_text": "KIA : HANWHA",
+        "location": "대전",
+        "matchup": "KIA(네일) vs 한화(왕옌청)",
+        "opponent": "한화",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(네일) vs 한화(왕옌청)",
+        "status_reason": "-",
+        "time": "19:00",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-18T11:08:50+09:00",
+  "no_game_sent": false
+}
