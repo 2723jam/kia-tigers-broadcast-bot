@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-22",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260822HTWO0": {
+      "game_key": "official:20260822HTWO0",
+      "last_sent_hash": "634b4dd0bf0a72c15bca62ce8bbfe2bad77aab4fa55f8799b768150e3cf5f8a2",
+      "last_snapshot": {
+        "date": "2026-08-22",
+        "game_label": "단일경기",
+        "game_text": "KIA : KIWOOM",
+        "location": "고척",
+        "matchup": "KIA(올러) vs 키움(안우진)",
+        "opponent": "키움",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs 키움(안우진)",
+        "status_reason": "-",
+        "time": "18:00",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-22T11:08:01+09:00",
+  "no_game_sent": false
+}
