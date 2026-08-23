@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-23",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260823HTWO0": {
+      "game_key": "official:20260823HTWO0",
+      "last_sent_hash": "982d14457bdfc9701aa982b0694fa346302a79115cb6ece7977358423fc24e81",
+      "last_snapshot": {
+        "date": "2026-08-23",
+        "game_label": "단일경기",
+        "game_text": "KIA : KIWOOM",
+        "location": "고척",
+        "matchup": "KIA(네일) vs 키움(전준표)",
+        "opponent": "키움",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(네일) vs 키움(전준표)",
+        "status_reason": "-",
+        "time": "14:00",
+        "tv": "SBS (5번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-23T11:17:18+09:00",
+  "no_game_sent": false
+}
