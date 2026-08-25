@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-25",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260825LTHT0": {
+      "game_key": "official:20260825LTHT0",
+      "last_sent_hash": "6edae972399c0b4aa3cb813c5be77b2fb27d63e288128aea13745973dca3f0ce",
+      "last_snapshot": {
+        "date": "2026-08-25",
+        "game_label": "단일경기",
+        "game_text": "LOTTE : KIA",
+        "location": "광주",
+        "matchup": "KIA(시라카와) vs 롯데(비슬리)",
+        "opponent": "롯데",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(시라카와) vs 롯데(비슬리)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-25T11:11:45+09:00",
+  "no_game_sent": false
+}
