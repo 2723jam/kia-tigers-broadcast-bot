@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-27",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260827LTHT0": {
+      "game_key": "official:20260827LTHT0",
+      "last_sent_hash": "754af05cefa1120be80257c91867895e5e690a1cfe1ee1c56159fa3e0870fd12",
+      "last_snapshot": {
+        "date": "2026-08-27",
+        "game_label": "단일경기",
+        "game_text": "LOTTE : KIA",
+        "location": "광주",
+        "matchup": "KIA(양현종) vs 롯데(나균안)",
+        "opponent": "롯데",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(양현종) vs 롯데(나균안)",
+        "status_reason": "우천취소",
+        "time": "18:30",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-27T19:43:36+09:00",
+  "no_game_sent": false
+}
