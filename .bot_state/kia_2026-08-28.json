@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-28",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260828SKHT0": {
+      "game_key": "official:20260828SKHT0",
+      "last_sent_hash": "cc14aa80b0a63ed84c86926ea03b6c9c1181f76536eff7dcee93621c0a4d130a",
+      "last_snapshot": {
+        "date": "2026-08-28",
+        "game_label": "단일경기",
+        "game_text": "SSG : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs SSG(이준기)",
+        "opponent": "SSG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs SSG(이준기)",
+        "status_reason": "우천취소",
+        "time": "18:30",
+        "tv": "SBS SPORTS (58번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-28T21:21:21+09:00",
+  "no_game_sent": false
+}
