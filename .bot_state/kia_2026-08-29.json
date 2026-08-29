@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-29",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260829SKHT0": {
+      "game_key": "official:20260829SKHT0",
+      "last_sent_hash": "d8f15a7850567de5f100e5243e87b8c75aa1a2e4ba97ed7b8929c0502d782e9b",
+      "last_snapshot": {
+        "date": "2026-08-29",
+        "game_label": "단일경기",
+        "game_text": "SSG : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs SSG(아빌라)",
+        "opponent": "SSG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs SSG(아빌라)",
+        "status_reason": "-",
+        "time": "18:00",
+        "tv": "SBS SPORTS (58번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-08-29T16:30:46+09:00",
+  "no_game_sent": false
+}
