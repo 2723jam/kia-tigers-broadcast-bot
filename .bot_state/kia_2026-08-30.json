@@ -4,7 +4,7 @@
   "games_by_key": {
     "official:20260830SKHT0": {
       "game_key": "official:20260830SKHT0",
-      "last_sent_hash": "c2a1242c0ef5cdd6d23421002254fe553ae54040631632d6ca48c55bc9427b3f",
+      "last_sent_hash": "7bf47957d56e36378966e0792426cde510c1e8287a3b1ec6de8825f0fc4d7948",
       "last_snapshot": {
         "date": "2026-08-30",
         "game_label": "단일경기",
@@ -14,13 +14,13 @@
         "opponent": "SSG",
         "season_type": "정규시즌",
         "starting_pitchers": "KIA(네일) vs SSG(이준기)",
-        "status_reason": "-",
+        "status_reason": "우천취소",
         "time": "18:00",
         "tv": "SBS SPORTS (58번)"
       },
-      "resend_count": 0
+      "resend_count": 1
     }
   },
-  "last_sent_at_kst": "2026-08-30T15:02:16+09:00",
+  "last_sent_at_kst": "2026-08-30T21:03:28+09:00",
   "no_game_sent": false
 }
