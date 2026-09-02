@@ -27,7 +27,6 @@ TELEGRAM_API_BASE_URL = "https://api.telegram.org"
 REQUEST_TIMEOUT_SECONDS = 15
 USER_AGENT = "kia-broadcast-bot/1.0"
 FIRST_CHECK_TIME = time(10, 0)
-INITIAL_SEND_CUTOFF_TIME = time(11, 0)
 ROOT_DIR = Path(__file__).resolve().parents[1]
 STATE_DIR = Path(
     os.environ.get(
@@ -425,15 +424,6 @@ def should_send_initial(
 
     now_time = now.astimezone(KST).time()
     if now_time < FIRST_CHECK_TIME:
-        return False
-    if now_time >= INITIAL_SEND_CUTOFF_TIME and not any(
-        _is_disrupted_status(normalize_game_snapshot(game).get("status_reason"))
-        for game in games
-    ):
-        logger.warning(
-            "Skip delayed normal initial notification after %s KST.",
-            INITIAL_SEND_CUTOFF_TIME.strftime("%H:%M"),
-        )
         return False
     return True
 

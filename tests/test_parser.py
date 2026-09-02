@@ -147,15 +147,12 @@ def test_initial_window_skips_started_games_only():
     assert "DH 1차" not in message
 
 
-def test_normal_initial_send_is_blocked_after_eleven():
+def test_delayed_initial_send_falls_back_in_afternoon():
     games = parse_kia_games(row(start="18:30", game="KIA : KIWOOM", tv="KN-T"))
     state = {"first_sent": False, "games_by_key": {}}
 
     assert bot.should_send_initial(
-        datetime(2026, 5, 27, 10, 59, tzinfo=KST), games, state
-    )
-    assert not bot.should_send_initial(
-        datetime(2026, 5, 27, 11, 0, tzinfo=KST), games, state
+        datetime(2026, 5, 27, 15, 0, tzinfo=KST), games, state
     )
 
 
