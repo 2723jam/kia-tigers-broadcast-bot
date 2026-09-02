@@ -130,12 +130,12 @@ def test_doubleheader_two_games_are_sent_in_time_order():
     assert message.index("DH 1차") < message.index("DH 2차")
 
 
-def test_late_initial_send_skips_started_games_only():
+def test_initial_window_skips_started_games_only():
     games = parse_kia_games(
-        row(start="14:00", game="KIA : KIWOOM", tv="KN-T")
+        row(start="09:00", game="KIA : KIWOOM", tv="KN-T")
         + row(start="18:30", game="KIA : KIWOOM", tv="MS-T")
     )
-    now = datetime(2026, 5, 27, 15, 0, tzinfo=KST)
+    now = datetime(2026, 5, 27, 10, 30, tzinfo=KST)
     state = {"first_sent": False, "games_by_key": {}}
 
     sendable_games = bot._games_before_start(now, games)
@@ -145,6 +145,18 @@ def test_late_initial_send_skips_started_games_only():
     message = bot.build_initial_message(sendable_games)
     assert "DH 2차" in message
     assert "DH 1차" not in message
+
+
+def test_normal_initial_send_is_blocked_after_eleven():
+    games = parse_kia_games(row(start="18:30", game="KIA : KIWOOM", tv="KN-T"))
+    state = {"first_sent": False, "games_by_key": {}}
+
+    assert bot.should_send_initial(
+        datetime(2026, 5, 27, 10, 59, tzinfo=KST), games, state
+    )
+    assert not bot.should_send_initial(
+        datetime(2026, 5, 27, 11, 0, tzinfo=KST), games, state
+    )
 
 
 def test_late_initial_send_is_blocked_after_all_games_started():
