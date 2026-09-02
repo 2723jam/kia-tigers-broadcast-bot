@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-02",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260902HTNC0": {
+      "game_key": "official:20260902HTNC0",
+      "last_sent_hash": "9308fd77cbb8956fc7682100e3b925d34cc519698d2d9bd47530aa859bcaadc2",
+      "last_snapshot": {
+        "date": "2026-09-02",
+        "game_label": "단일경기",
+        "game_text": "KIA : NC",
+        "location": "창원",
+        "matchup": "KIA(시라카와) vs NC(토다)",
+        "opponent": "NC",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(시라카와) vs NC(토다)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "MBC SPORTS+ (60번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-02T12:05:40+09:00",
+  "no_game_sent": false
+}
