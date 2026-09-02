@@ -1,6 +1,11 @@
 name: KIA Tigers Broadcast Bot
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/manual-kia-send"
   schedule:
     # Start several non-busy-minute anchors early; the first one waits for 10:00 KST.
     - cron: "17,47 8-9 * * *"
@@ -65,11 +70,11 @@ jobs:
         run: python scripts/wait_for_first_check.py >> "$GITHUB_OUTPUT"
 
       - name: Run bot
-        if: github.event_name == 'workflow_dispatch' || steps.notification_window.outputs.run == 'true'
+        if: github.event_name != 'schedule' || steps.notification_window.outputs.run == 'true'
         run: python src/kia_broadcast_bot.py
 
       - name: Commit state changes
-        if: github.event_name == 'workflow_dispatch' || steps.notification_window.outputs.run == 'true'
+        if: github.event_name != 'schedule' || steps.notification_window.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
