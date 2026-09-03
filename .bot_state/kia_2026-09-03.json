@@ -4,7 +4,7 @@
   "games_by_key": {
     "official:20260903HTNC0": {
       "game_key": "official:20260903HTNC0",
-      "last_sent_hash": "d1676d2ae944621c5d759354a6c7b397ffa2d819669920c38f3d3a249e46de7f",
+      "last_sent_hash": "1cefa53d9a4982cf2475a74d48833e16b8b2ededf5194960cfead86e212771e2",
       "last_snapshot": {
         "date": "2026-09-03",
         "game_label": "단일경기",
@@ -14,13 +14,13 @@
         "opponent": "NC",
         "season_type": "정규시즌",
         "starting_pitchers": "KIA(양현종) vs NC(이재학)",
-        "status_reason": "-",
+        "status_reason": "우천취소",
         "time": "18:30",
         "tv": "MBC SPORTS+ (60번)"
       },
-      "resend_count": 0
+      "resend_count": 1
     }
   },
-  "last_sent_at_kst": "2026-09-03T10:06:30+09:00",
+  "last_sent_at_kst": "2026-09-03T20:22:50+09:00",
   "no_game_sent": false
 }
