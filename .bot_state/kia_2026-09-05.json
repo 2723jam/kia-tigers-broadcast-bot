@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-05",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260905KTHT0": {
+      "game_key": "official:20260905KTHT0",
+      "last_sent_hash": "e864ae743cd08799dc6de97ef8b2f7c556a65b99c2f18069406539fe1334a224",
+      "last_snapshot": {
+        "date": "2026-09-05",
+        "game_label": "단일경기",
+        "game_text": "KT : KIA",
+        "location": "광주",
+        "matchup": "KIA(양현종) vs KT(로건)",
+        "opponent": "KT",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(양현종) vs KT(로건)",
+        "status_reason": "-",
+        "time": "17:00",
+        "tv": "KBS N SPORTS (59번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-05T10:00:00+09:00",
+  "no_game_sent": false
+}
