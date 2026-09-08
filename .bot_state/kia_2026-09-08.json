@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-08",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260908HTSS0": {
+      "game_key": "official:20260908HTSS0",
+      "last_sent_hash": "ee33a3be7234fa29c2db377d8d767ef639759b04a28cf57443e03c846ddca8d0",
+      "last_snapshot": {
+        "date": "2026-09-08",
+        "game_label": "단일경기",
+        "game_text": "KIA : SAMSUNG",
+        "location": "대구",
+        "matchup": "KIA(시라카와) vs 삼성(최원태)",
+        "opponent": "삼성",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(시라카와) vs 삼성(최원태)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV (51번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-08T10:10:18+09:00",
+  "no_game_sent": false
+}
