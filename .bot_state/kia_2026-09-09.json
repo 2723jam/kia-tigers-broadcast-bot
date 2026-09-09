@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-09",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260909NCHT0": {
+      "game_key": "official:20260909NCHT0",
+      "last_sent_hash": "442b2f3d9593737d4bb09f6667e2455f128059fa25d16891f4df40c69dcd6c8f",
+      "last_snapshot": {
+        "date": "2026-09-09",
+        "game_label": "단일경기",
+        "game_text": "NC : KIA",
+        "location": "광주",
+        "matchup": "KIA(황동하) vs NC(송명기)",
+        "opponent": "NC",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(황동하) vs NC(송명기)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-09T10:14:12+09:00",
+  "no_game_sent": false
+}
