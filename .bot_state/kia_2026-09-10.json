@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-10",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260910NCHT0": {
+      "game_key": "official:20260910NCHT0",
+      "last_sent_hash": "9d07cea437ca7525b771bc2e085c05ccdabdce7fcd01fef2fe50d91dbbf19faf",
+      "last_snapshot": {
+        "date": "2026-09-10",
+        "game_label": "단일경기",
+        "game_text": "NC : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs NC(라일리)",
+        "opponent": "NC",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs NC(라일리)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "MBC SPORTS+ (60번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-10T10:02:49+09:00",
+  "no_game_sent": false
+}
