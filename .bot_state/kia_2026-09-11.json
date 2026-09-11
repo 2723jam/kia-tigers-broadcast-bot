@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-11",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260911SKHT0": {
+      "game_key": "official:20260911SKHT0",
+      "last_sent_hash": "9c41f2df506894dd74a8e248d66a0d818f9d181c336673f83441884534edcfc6",
+      "last_snapshot": {
+        "date": "2026-09-11",
+        "game_label": "단일경기",
+        "game_text": "SSG : KIA",
+        "location": "광주",
+        "matchup": "KIA(양현종) vs SSG(이준기)",
+        "opponent": "SSG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(양현종) vs SSG(이준기)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV (51번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-11T10:02:49+09:00",
+  "no_game_sent": false
+}
