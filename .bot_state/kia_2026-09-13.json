@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-13",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260913HHHT0": {
+      "game_key": "official:20260913HHHT0",
+      "last_sent_hash": "1aa4bf4842769f36c6323b26846ecd2c67a532f5ddfaecafbb89e00fbfee8afb",
+      "last_snapshot": {
+        "date": "2026-09-13",
+        "game_label": "단일경기",
+        "game_text": "HANWHA : KIA",
+        "location": "광주",
+        "matchup": "KIA(시라카와) vs 한화(화이트)",
+        "opponent": "한화",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(시라카와) vs 한화(화이트)",
+        "status_reason": "-",
+        "time": "17:00",
+        "tv": "SBS SPORTS (58번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-13T10:00:00+09:00",
+  "no_game_sent": false
+}
