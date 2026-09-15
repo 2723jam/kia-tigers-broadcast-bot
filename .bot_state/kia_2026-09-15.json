@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-15",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260915HTSK0": {
+      "game_key": "official:20260915HTSK0",
+      "last_sent_hash": "120a89cae1bb587f0d1c4a79bf0239272c4c156d10ad44b295336d174a762940",
+      "last_snapshot": {
+        "date": "2026-09-15",
+        "game_label": "단일경기",
+        "game_text": "KIA : SSG",
+        "location": "문학",
+        "matchup": "KIA(김태형) vs SSG(김민준)",
+        "opponent": "SSG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(김태형) vs SSG(김민준)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "MBC SPORTS+ (60번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-15T10:25:20+09:00",
+  "no_game_sent": false
+}
