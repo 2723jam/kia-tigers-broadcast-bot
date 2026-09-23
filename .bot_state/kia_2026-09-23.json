@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-23",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260923HTOB0": {
+      "game_key": "official:20260923HTOB0",
+      "last_sent_hash": "80c49cf67d9402cc32151682a3caa30d1419e356f6c58ba87abbaaae01a300cd",
+      "last_snapshot": {
+        "date": "2026-09-23",
+        "game_label": "단일경기",
+        "game_text": "KIA : DOOSAN",
+        "location": "잠실",
+        "matchup": "KIA(올러) vs 두산(잭로그)",
+        "opponent": "두산",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs 두산(잭로그)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-23T10:28:39+09:00",
+  "no_game_sent": false
+}
