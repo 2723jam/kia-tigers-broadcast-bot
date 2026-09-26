@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-26",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260926LGHT0": {
+      "game_key": "official:20260926LGHT0",
+      "last_sent_hash": "6c95aa68f2a43d0a1fae11151a78dc95062bd7bc6af80128016d0e1ab4301933",
+      "last_snapshot": {
+        "date": "2026-09-26",
+        "game_label": "단일경기",
+        "game_text": "LG : KIA",
+        "location": "광주",
+        "matchup": "KIA(네일) vs LG(임찬규)",
+        "opponent": "LG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(네일) vs LG(임찬규)",
+        "status_reason": "-",
+        "time": "17:00",
+        "tv": "SPOTV (51번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-26T10:30:43+09:00",
+  "no_game_sent": false
+}
