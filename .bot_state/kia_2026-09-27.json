@@ -4,7 +4,7 @@
   "games_by_key": {
     "official:20260927LGHT0": {
       "game_key": "official:20260927LGHT0",
-      "last_sent_hash": "1898dfb87fc9761ad36c2e8d1b41e5544843c8859b6b21a81264b55e253ca964",
+      "last_sent_hash": "749eb5646016187fd5e53cbbafb4ce20bc6d36f408aee5b63ab1523e37c99765",
       "last_snapshot": {
         "date": "2026-09-27",
         "game_label": "단일경기",
@@ -14,13 +14,13 @@
         "opponent": "LG",
         "season_type": "정규시즌",
         "starting_pitchers": "KIA(시라카와) vs LG(카라스코)",
-        "status_reason": "-",
+        "status_reason": "우천취소",
         "time": "17:00",
         "tv": "SBS SPORTS (58번)"
       },
-      "resend_count": 0
+      "resend_count": 1
     }
   },
-  "last_sent_at_kst": "2026-09-27T10:25:07+09:00",
+  "last_sent_at_kst": "2026-09-27T21:30:26+09:00",
   "no_game_sent": false
 }
