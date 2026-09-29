@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-29",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260929KTHT0": {
+      "game_key": "official:20260929KTHT0",
+      "last_sent_hash": "213abc280a79a3e18c970a46d7f6da5cfa75f7618b73ccbcb0a2f9db37464d60",
+      "last_snapshot": {
+        "date": "2026-09-29",
+        "game_label": "단일경기",
+        "game_text": "KT : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs KT(로건)",
+        "opponent": "KT",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs KT(로건)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "MBC SPORTS+ (60번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-29T11:34:04+09:00",
+  "no_game_sent": false
+}
