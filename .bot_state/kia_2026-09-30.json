@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20260930KTHT0": {
+      "game_key": "official:20260930KTHT0",
+      "last_sent_hash": "a16e95bac7c3f03ba37624a4eb715e3fad04a5d4a8b8f358b5d692e780fc11f1",
+      "last_snapshot": {
+        "date": "2026-09-30",
+        "game_label": "단일경기",
+        "game_text": "KT : KIA",
+        "location": "광주",
+        "matchup": "KIA(김태형) vs KT(대니엘)",
+        "opponent": "KT",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(김태형) vs KT(대니엘)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-09-30T11:05:13+09:00",
+  "no_game_sent": false
+}
