@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-03",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261003HTLG0": {
+      "game_key": "official:20261003HTLG0",
+      "last_sent_hash": "5eeee3c0e559ecec11279a7ddb236d4f4cf9d463bfedb816692dfe00f3a8861b",
+      "last_snapshot": {
+        "date": "2026-10-03",
+        "game_label": "단일경기",
+        "game_text": "KIA : LG",
+        "location": "잠실",
+        "matchup": "KIA(네일) vs LG(카라스코)",
+        "opponent": "LG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(네일) vs LG(카라스코)",
+        "status_reason": "-",
+        "time": "14:00",
+        "tv": "KBS N SPORTS (59번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-03T10:55:12+09:00",
+  "no_game_sent": false
+}
