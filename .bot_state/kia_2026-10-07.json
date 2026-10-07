@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-07",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261007HTLT0": {
+      "game_key": "official:20261007HTLT0",
+      "last_sent_hash": "c880f7fd946f79492a4e50512e085b7afef5fa935ee27ed8d3e15e0cc780ddba",
+      "last_snapshot": {
+        "date": "2026-10-07",
+        "game_label": "단일경기",
+        "game_text": "KIA : LOTTE",
+        "location": "사직",
+        "matchup": "KIA(양현종) vs 롯데(김태균)",
+        "opponent": "롯데",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(양현종) vs 롯데(김태균)",
+        "status_reason": "-",
+        "time": "18:30",
+        "tv": "SPOTV (51번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-07T11:21:04+09:00",
+  "no_game_sent": false
+}
