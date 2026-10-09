@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261009HTNC0": {
+      "game_key": "official:20261009HTNC0",
+      "last_sent_hash": "f77cad3821d85fddb3a9d31d767930bfba881accfa1b0e8f4d669e08ba8b0d59",
+      "last_snapshot": {
+        "date": "2026-10-09",
+        "game_label": "단일경기",
+        "game_text": "KIA : NC",
+        "location": "창원",
+        "matchup": "KIA(네일) vs NC(구창모)",
+        "opponent": "NC",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(네일) vs NC(구창모)",
+        "status_reason": "-",
+        "time": "14:00",
+        "tv": "SBS SPORTS (58번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-09T11:55:41+09:00",
+  "no_game_sent": false
+}
