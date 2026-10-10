@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-10",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261010SKHT0": {
+      "game_key": "official:20261010SKHT0",
+      "last_sent_hash": "676379624ef025672668b0f9bac6c3d7531ab5c4ed74f807e16f03c67ae176d1",
+      "last_snapshot": {
+        "date": "2026-10-10",
+        "game_label": "단일경기",
+        "game_text": "SSG : KIA",
+        "location": "광주",
+        "matchup": "KIA(시라카와) vs SSG(최민준)",
+        "opponent": "SSG",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(시라카와) vs SSG(최민준)",
+        "status_reason": "-",
+        "time": "17:00",
+        "tv": "SPOTV (51번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-10T11:18:15+09:00",
+  "no_game_sent": false
+}
