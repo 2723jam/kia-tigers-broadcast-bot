@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-11",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261011LTHT0": {
+      "game_key": "official:20261011LTHT0",
+      "last_sent_hash": "fb1de2346f95bc3878b72f6b346419b4a4de635131cbcf34f150475e6f417a07",
+      "last_snapshot": {
+        "date": "2026-10-11",
+        "game_label": "단일경기",
+        "game_text": "LOTTE : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs 롯데(김진욱)",
+        "opponent": "롯데",
+        "season_type": "정규시즌",
+        "starting_pitchers": "KIA(올러) vs 롯데(김진욱)",
+        "status_reason": "-",
+        "time": "14:00",
+        "tv": "KBS N SPORTS (59번), SPOTV (51번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-11T10:50:30+09:00",
+  "no_game_sent": false
+}
