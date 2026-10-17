@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-17",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261017LGHT0": {
+      "game_key": "official:20261017LGHT0",
+      "last_sent_hash": "0547facb9f1cf0138e2b6709704e3d5ae64e28e93c6df4daea69fb25700d1ecf",
+      "last_snapshot": {
+        "date": "2026-10-17",
+        "game_label": "단일경기",
+        "game_text": "LG : KIA",
+        "location": "광주",
+        "matchup": "KIA(네일) vs LG(톨허스트)",
+        "opponent": "LG",
+        "season_type": "준PO",
+        "starting_pitchers": "KIA(네일) vs LG(톨허스트)",
+        "status_reason": "준PO1",
+        "time": "14:00",
+        "tv": "KBS2 (7번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-17T10:17:09+09:00",
+  "no_game_sent": false
+}
