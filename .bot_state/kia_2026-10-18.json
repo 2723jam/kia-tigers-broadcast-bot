@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261018LGHT0": {
+      "game_key": "official:20261018LGHT0",
+      "last_sent_hash": "ced0df172c8d9ad87ca23b715821e3ad763908833640024d6e415bcc1ad01972",
+      "last_snapshot": {
+        "date": "2026-10-18",
+        "game_label": "단일경기",
+        "game_text": "LG : KIA",
+        "location": "광주",
+        "matchup": "KIA(올러) vs LG(임찬규)",
+        "opponent": "LG",
+        "season_type": "준PO",
+        "starting_pitchers": "KIA(올러) vs LG(임찬규)",
+        "status_reason": "준PO2",
+        "time": "14:00",
+        "tv": "SBS (5번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-18T10:00:00+09:00",
+  "no_game_sent": false
+}
