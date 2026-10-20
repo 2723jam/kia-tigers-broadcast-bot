@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-20",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261020HTLG0": {
+      "game_key": "official:20261020HTLG0",
+      "last_sent_hash": "5de0f6c378ec323b332b5de85b40312e9f0a9714e4da07c41089875e4e7a4342",
+      "last_snapshot": {
+        "date": "2026-10-20",
+        "game_label": "단일경기",
+        "game_text": "KIA : LG",
+        "location": "잠실",
+        "matchup": "KIA(시라카와) vs LG(카라스코)",
+        "opponent": "LG",
+        "season_type": "준PO",
+        "starting_pitchers": "KIA(시라카와) vs LG(카라스코)",
+        "status_reason": "준PO3",
+        "time": "18:30",
+        "tv": "MBC (11번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-20T10:47:43+09:00",
+  "no_game_sent": false
+}
