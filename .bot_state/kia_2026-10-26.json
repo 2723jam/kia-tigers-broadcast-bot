@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-26",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261026HTSS0": {
+      "game_key": "official:20261026HTSS0",
+      "last_sent_hash": "4a767c11bdbabd425dc0adaebad50511dd1aa48103b31f15d9ef61e54a086813",
+      "last_snapshot": {
+        "date": "2026-10-26",
+        "game_label": "단일경기",
+        "game_text": "KIA : SAMSUNG",
+        "location": "대구",
+        "matchup": "KIA(네일) vs 삼성(페덱)",
+        "opponent": "삼성",
+        "season_type": "PO",
+        "starting_pitchers": "KIA(네일) vs 삼성(페덱)",
+        "status_reason": "PO1",
+        "time": "18:30",
+        "tv": "MBC (11번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-26T10:07:15+09:00",
+  "no_game_sent": false
+}
