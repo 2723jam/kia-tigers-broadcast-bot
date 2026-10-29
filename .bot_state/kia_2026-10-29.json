@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261029SSHT0": {
+      "game_key": "official:20261029SSHT0",
+      "last_sent_hash": "3cceb1eae3b4a5fa957b461650f118c3b4cb2de5e9541f229c6efdb779c27669",
+      "last_snapshot": {
+        "date": "2026-10-29",
+        "game_label": "단일경기",
+        "game_text": "SAMSUNG : KIA",
+        "location": "광주",
+        "matchup": "KIA(시라카와) vs 삼성(최원태)",
+        "opponent": "삼성",
+        "season_type": "PO",
+        "starting_pitchers": "KIA(시라카와) vs 삼성(최원태)",
+        "status_reason": "PO3",
+        "time": "18:30",
+        "tv": "SBS (5번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-29T11:23:44+09:00",
+  "no_game_sent": false
+}
