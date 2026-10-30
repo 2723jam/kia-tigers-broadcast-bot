@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261030SSHT0": {
+      "game_key": "official:20261030SSHT0",
+      "last_sent_hash": "519e5c5c46dce91a9f7a27790dcebe6faa0a7afa046c466472f13e8f9be9c3ef",
+      "last_snapshot": {
+        "date": "2026-10-30",
+        "game_label": "단일경기",
+        "game_text": "SAMSUNG : KIA",
+        "location": "광주",
+        "matchup": "KIA(네일) vs 삼성(페덱)",
+        "opponent": "삼성",
+        "season_type": "PO",
+        "starting_pitchers": "KIA(네일) vs 삼성(페덱)",
+        "status_reason": "PO4",
+        "time": "18:30",
+        "tv": "MBC SPORTS+ (60번), KBS N SPORTS (59번), SBS SPORTS (58번), SPOTV (51번), SPOTV2 (52번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-10-30T11:34:25+09:00",
+  "no_game_sent": false
+}
