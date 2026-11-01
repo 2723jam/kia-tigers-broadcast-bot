@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-01",
+  "first_sent": true,
+  "games_by_key": {
+    "official:20261101HTSS0": {
+      "game_key": "official:20261101HTSS0",
+      "last_sent_hash": "f1acd5939fd44d4c58b15b02fd0eb654e7f4ff6da741dda3b535175d81d1a65a",
+      "last_snapshot": {
+        "date": "2026-11-01",
+        "game_label": "단일경기",
+        "game_text": "KIA : SAMSUNG",
+        "location": "대구",
+        "matchup": "KIA(올러) vs 삼성(후라도)",
+        "opponent": "삼성",
+        "season_type": "PO",
+        "starting_pitchers": "KIA(올러) vs 삼성(후라도)",
+        "status_reason": "PO5",
+        "time": "14:00",
+        "tv": "KBS2 (7번)"
+      },
+      "resend_count": 0
+    }
+  },
+  "last_sent_at_kst": "2026-11-01T11:10:05+09:00",
+  "no_game_sent": false
+}
